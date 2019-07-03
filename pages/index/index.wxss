@@ -1,0 +1,322 @@
+/* pages/index/index.wxss */
+.page-box {
+  height: 100%;
+}
+/* swiper */
+.top-box {
+  height: 88rpx;
+  line-height: 88rpx;
+  position: relative;
+  background: #f7f7f7;
+  padding-left: 10rpx;
+}
+.top-local{
+  width: 44rpx;
+  height: 44rpx;
+  display: block;
+  float: left;
+  margin-top: 20rpx;
+}
+.top-text {
+  float: left;
+  line-height: 88rpx;
+  margin-left: 12rpx;
+}
+.top-notify{
+  width: 500rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-top: 14rpx;
+  border-radius: 8rpx;
+  float: left;
+  color: #ff6428;
+  margin-left: 52rpx;
+  overflow: hidden;
+  padding-left: 60rpx;
+  background: #fff url(http://welfare.img.shanshizhe.cn/icon5.png) 18rpx center no-repeat;
+  background-size: 28rpx 28rpx;
+}
+.swiper_item{
+  width:100%;
+  height:100%;
+  position:relative;
+  overflow: hidden;
+}
+.swiper_img{
+  width: 102%;
+  height: 102%;
+  position: absolute;
+  left: -2%;
+  top: -2%;
+}
+/* swiper end */
+.index-btn{
+  width: 100%;
+  height: 100rpx;
+  background: #ff6428;
+  text-align: center;
+  line-height: 100rpx;
+  color: #fff;
+  font-size: 32rpx;
+}
+.t1{
+  width: 100%;
+  height: 76rpx;
+  line-height: 76rpx;
+  font-size: 38rpx;
+  text-align: center;
+  margin-top: 80rpx;
+}
+.t2{
+  width: 100%;
+  height: 36rpx;
+  line-height: 36rpx;
+  font-size: 28rpx;
+  text-align: center;
+  margin-top: 30rpx;
+}
+.img-box{
+  width: 400rpx;
+  height: 300rpx;
+  position: relative;
+  margin: 172rpx auto 0;
+}
+.img-box image{
+  width: 100%;
+  height: 100%;
+}
+.btn-img{
+  width: 670rpx;
+  height: 120rpx;
+  position: relative;
+  margin: 120rpx auto 0;
+}
+.btn-img image{
+  width: 100%;
+  height: 100%;
+}
+/* 附近老师 */
+.c-star {
+  width: 45rpx;
+  height: 45rpx;
+  margin: 0 10rpx;
+  display: inline-block;
+  float: none;
+}
+.list-box {
+  padding: 30rpx 0;
+}
+.list-title {
+  padding: 0 30rpx;
+  line-height: 48rpx;
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-bottom: 40rpx;
+}
+.top-box{
+  padding: 0 30rpx;
+  width: 100%;
+  height: 420rpx;
+  position: relative;
+  z-index: 9;
+  background: #fff;
+}
+.top_scroll{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.type_box{
+  height: 100%;
+}
+.item-box {
+  width: 230rpx;
+  overflow: hidden;
+  padding: 10rpx;
+  text-align: center;
+  height: 100%;
+  float: left;
+  position: relative;
+  white-space: nowrap;
+}
+.header-box{
+  width: 180rpx;
+  height: 180rpx;
+  margin: 0 auto;
+  position: relative;
+  background: #ccc;
+  border-radius: 4rpx;
+}
+.auth-box{
+  height: 38rpx;
+  padding: 0 6rpx;
+  line-height: 36rpx;
+  float: left;
+  margin-left: 56rpx;
+  margin-top: 5rpx;
+  font-size: 28rpx;
+  background: #ff6428;
+  color: #fff;
+  border-radius: 6rpx;
+  position: absolute;
+  width: 120rpx;
+  right: 0rpx;
+  top: 0rpx;
+  z-index: 10;
+  text-align: center;
+}
+.auth-gray-box {
+  background: #ccc;
+}
+.item-t {
+  line-height: 44rpx;
+}
+.scroll-t{
+  text-align: right;
+  color: #ccc;
+  font-size: 28rpx;
+  line-height: 34rpx;
+  padding-right: 30rpx;
+}
+.t-num {
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 36rpx;
+  color: #565656;
+}
+
+/*  滑块 */
+.m-box {
+  padding-top: 50rpx;
+}
+.m-area {
+  left: -100vw;
+  height: 696rpx; 
+  width: 200vw; 
+  /* background:#000; */
+  background:rgba(0,0,0,0); 
+  z-index: 99;
+}
+.m-item-box {
+  position:relative;
+  margin-left: 42rpx;
+  width: 666rpx; 
+  height: 692rpx; 
+  border-radius: 10rpx;
+  z-index: 9;
+  background: #fff;
+  padding-top: 76rpx;
+}
+.image {
+  width: 260rpx;
+  height: 260rpx;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: block;
+}
+.item-star{
+  width: 100%;
+  margin-top: 40rpx;
+  text-align: center;
+}
+.item0{
+    box-shadow:0px 9px 10px 0px rgba(0,0,0,0.1);
+}
+.star-t1{
+  text-align: center;
+  margin-top: 28rpx;
+  line-height: 40rpx;
+  font-size: 28rpx;
+}
+.star-t2{
+  line-height: 44rpx;
+  padding-left: 96rpx;
+  margin-top: 60rpx;
+  font-size: 32rpx;
+  color: #000;
+  position: relative;
+}
+.star-t3{
+  line-height: 44rpx;
+  padding-left: 96rpx;
+  margin-top: 10rpx;
+  font-size: 32rpx;
+  color: #000;
+  padding-right: 40rpx;
+  position: relative;
+}
+.star-t31{
+  color: #FF6428;
+  font-size: 32rpx;
+  line-height: 45rpx;
+  float: right;
+}
+.icon-img{
+  position: absolute;
+  left: 45rpx;
+  top: 5rpx;
+  height: 34rpx;
+  width: 34rpx;
+}
+/* 滑块end */
+/* 评价星级展示 start */
+.comment-box {
+  background: #fff;
+  margin-top: 20rpx;
+  height: 600rpx;
+  padding-top: 40rpx;
+}
+.comment-item{
+  min-height: 82rpx;
+  line-height: 82rpx;
+  position: relative;
+  padding-left: 180rpx;
+  margin-bottom: 10rpx;
+}
+.comment-label{
+  width: 180rpx;
+  font-size: 32rpx;
+  line-height: 82rpx;
+  height: 82rpx;
+  color: #000;
+  font-weight: 600;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-left: 30rpx;
+}
+.comment-star-box{
+  width: 500rpx;
+  line-height: 82rpx;
+  position: relative;
+}
+.c-star{
+  width: 44rpx;
+  height: 44rpx;
+  margin-right: 20rpx;
+  background: url('http://qiniu.wqsong.com/btn-stars0.png') center center no-repeat;
+  background-size: 38rpx 38rpx;
+  margin-top: 19rpx;
+}
+.red-star {
+  background: url('http://qiniu.wqsong.com/btn-stars1.png') center center no-repeat;
+  background-size: 38rpx 38rpx; 
+}
+.c-text{
+  color: #ff6428;
+}
+.comment-input{
+  width: 500rpx;
+  height: 220rpx;
+  border: 1rpx solid #979797;
+  position: relative;
+  padding: 20rpx;
+  border-radius: 4rpx;
+}
+.comment-input textarea{
+  width: 100%;
+  height: 100%;
+  line-height: 36rpx;
+}
+/* 评价星级展示 end */
