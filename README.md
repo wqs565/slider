@@ -3,6 +3,8 @@
 #### 项目介绍
 🎉一个微信小程序滑动效果，仿探探卡片动画效果分享
 
+![gif](http://qiniu.wqsong.com/uniapp-example.gif)
+
 #### 安装说明
 
 1.  git clone
