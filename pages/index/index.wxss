@@ -198,11 +198,20 @@
   background:rgba(0,0,0,0); 
   z-index: 99;
 }
+.m-item {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  margin-top: -5px;
+}
 .m-item-box {
-  position:relative;
+  /* position:relative; */
   margin-left: 42rpx;
   width: 666rpx; 
   height: 692rpx; 
+  position:absolute;
+  top: -333rpx;
   border-radius: 10rpx;
   z-index: 9;
   background: #fff;

@@ -61,7 +61,25 @@ let arr = [
     name: "王**",
     school: "北京**大学",
     stars: 8
-  }
+  },
+  {
+    auth: 1,
+    distance: 7.6,
+    image: "https://static.npmjs.com/af1de18562437f3ae97a7b3df1e2958f.svg",
+    major: "汉语言文学",
+    name: "王**",
+    school: "北京**大学",
+    stars: 8
+  },
+  {
+    auth: 1,
+    distance: 1.2,
+    image: "https://file.1qiyin.com/tmp_c06c6ff59a9383fd41352fa2bb686d7b.png",
+    major: "汉语言文学",
+    name: "张**",
+    school: "北京**大学",
+    stars: 8
+  },
 ]
 
 export default arr

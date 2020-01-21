@@ -3,7 +3,7 @@
 
   <view class="m-box">
     <movable-area class="m-area">
-      <movable-view class='m-item' wx:for="{{list}}" wx:key="item" x="{{item.x}}" y="{{item.y}}" damping="50" direction="all" bindchange="onChange" data-index="{{index}}" catchtouchend="touchEnd" catchtouchstart="touchStart" out-of-bounds="true" data-auth="{{item.auth}}" data-id="{{item.t_user_id}}">
+      <movable-view class='m-item' wx:for="{{list}}" wx:key="item" wx:index="index" x="{{item.x}}" y="{{item.y}}" damping="52" direction="all" bindchange="onChange" data-index="{{index}}" catchtouchend="touchEnd" catchtouchstart="touchStart" catchtouchmove="touchMove" out-of-bounds="true" data-index="{{index}}">
         <!-- 根据自己的需求替换此区域 start -->
         <view class='m-item-box item{{(index == 0 || index == list.length -1) ? 0 : 1}} '>
           <image src="{{item.image}}" class="image"></image>
